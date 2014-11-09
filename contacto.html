@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Tornillos Edual</title>
+        <link rel="stylesheet" href="css/styles.css" media="screen"/>       
+
+    </head>
+
+    <body>
+         <div class="head_back">
+            <div class="container_menu">
+                <div class="menu">
+
+                    <div class="nav">
+                        <ul id="menu">
+                            <li><a href="index.html">Inicio</a></li>
+                            <div class="division"></div>
+                            <li><a href="empresa.html">Empresa</a></li>
+                            <div class="division"></div>
+                            <li><a href="productos.html">Productos</a> </li>
+                            <div class="division"></div>
+                            <li><a href="ventajas.html">Ventajas</a> </li>
+                            <div class="division"></div>
+                            <li><a href="contacto.html">Contacto</a> </li>
+
+                        </ul>
+                    </div>
+
+                </div> 
+                <div class="mail"></div>
+            </div>   
+        </div>
+        <div class="back_top"></div>
+        <div class="back_mid">
+            <div class="container">
+                <div class="logo_t">
+                    <div class="titulo">Contacto</div>
+                </div>
+                <div id="form">
+                    <form action="grabardatos.php"  id="formulario"  method="post" name="forma" > 
+                        <div class="label">
+                            <label for="Nombre">Nombre: <span class="r" title="Este campo es obligatorio.">*</span></label>
+                            <input type="text" maxlength="255" name="nombre"  id="nombre" size="60" value="" class="form-text required" />
+                            <div id='forma_nombre_errorloc' class='error' ></div>
+                        </div>
+                        <div class="label">
+                            <label for="cargo">Cargo: <span class="r" title="Este campo es obligatorio.">*</span></label>
+                            <input type="text" name="cargo" id="cargo"  size="60" value="" class="form-text required" />
+                            <div id='forma_cargo_errorloc' class='error' ></div>
+                        </div>
+                        <div class="label">
+                            <label for="email">Email: <span class="r" title="Este campo es obligatorio.">*</span></label>
+                            <input type="text"  name="email" id="email"  size="60" value="" class="form-text required" />
+                            <div id='forma_email_errorloc' class='error' ></div>
+                        </div>
+                        <div class="label">
+                            <label for="empresa">Empresa: <span class="r" title="Este campo es obligatorio.">*</span></label>
+                            <input type="text"  name="empresa" id="empresa"  size="60" value="" class="form-text required" />
+                            <div id='forma_empresa_errorloc' class='error' ></div>
+                        </div>
+                        <div class="label">
+                            <label for="telefono">Telefono: <span class="r" title="Este campo es obligatorio.">*</span></label>
+                            <input type="text"  name="telefono" id="telefono"  size="60" value="" class="form-text required" />
+                            <div id='forma_telefono_errorloc' class='error' ></div>
+                        </div>
+                        <hr>
+                            <div class="label">
+                                <label for="pais">Pais: <span class="r" title="Este campo es obligatorio.">*</span></label>
+                                <select  name="pais" id="pais" class="form-text required" >
+                                    <option value='0'>Selecciona...</option> 
+                                    <option value='0'>Colombia</option> 
+                                    <option value='0'>Argentina</option> 
+                                    <option value='0'>Brasil</option> 
+                                    <option value='0'>Venezuela</option> 
+                                </select>
+                                <div id='forma_pais_errorloc' class='error' ></div>
+                            </div>
+                            <div class="label">
+                                <label for="ciudad">Ciudad: <span class="r" title="Este campo es obligatorio.">*</span></label>
+                                <select  name="ciudad" id="ciudad" class="form-text required" >
+                                    <option value='0'>Selecciona...</option> 
+                                    <option value='0'>Bogotá</option> 
+                                    <option value='0'>Buenos Aires</option> 
+                                    <option value='0'>Brasilia</option> 
+                                    <option value='0'>Caracas</option> 
+                                </select>
+                                <div id='forma_ciudad_errorloc' class='error' ></div>
+                            </div>    
+                            <input type="hidden" name="MAX_FILE_SIZE" value="2000" />
+                            <div class="label">
+                                <label for="archivo"></label>
+                                <input type="file"  name="archivo" value="No ser ha selecionado un archivo" class="input"/>                            
+                            </div>  
+                            <br>
+                                <div class="label">     
+                                    <label for="comentario">Comentario: <span class="r" title="Este campo es obligatorio.">*</span></label><br>
+                                        <div class="clear"></div>
+                                        <textarea name="comentario" id="comentario"  class="required"></textarea>
+                                        <div id='forma_comentario_errorloc' class='error' ></div>
+                                </div>
+                                <div class="label1">
+                                    <input type="submit" name="submit"  value="Enviar"  class="submit" />
+                                </div>  
+
+                                </form>
+                                </div>
+                                <div id="maps">
+                                    <span class="r">Fabrica</span><br>
+                                        Calle 19a N° 35-38 Bogotá - Colombia<br>Tel.560 60 00 - 337 53 28 Fax 243 01 12
+                                            <div class="fabrica">
+                                                <iframe width="370" height="212" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msid=216776331500719876580.0004b5aad1da407193768&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;vpsrc=6&amp;ll=4.622838,-74.091368&amp;spn=0.003208,0.003219&amp;z=17&amp;output=embed"></iframe> </div>
+                                            <br>
+                                                <span class="r">Almacen</span><br>
+                                                    Avenida caracas N° 15-85 Bogotá - Colombia<br>Tel.296 48 36 Fax 296 57 28
+                                                        <div class="fabrica">
+                                                            <iframe width="370" height="212" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;msid=216776331500719876580.0004b5ab5369b7f87c066&amp;ie=UTF8&amp;t=m&amp;vpsrc=0&amp;z=17&amp;output=embed"></iframe>
+                                                        </div>                                                         
+                                                        </div>  
+                <div class="clear"></div>
+                                                        </div>
+                                                        </div>
+                                                        <div class="back_bot"></div>
+
+                                                        <div class="back_foot">
+                                                            <div class="container">
+                                                                <div class="info_foot">TORNILLOS EDUAL  PBX (57-1) 342-0192 CEL. 3208384361
+                                                                    </br>ventas@tornillosedual.com www.tornillosedual.com Bogotá | Colombia</div>
+                                                                <div class="facebook"></div>
+                                                                <div class="twitter"></div>
+                                                                <div class="sgs"></div>
+                                                            </div>
+                                                        </div>
+
+
+    </body>
+
+</html>
